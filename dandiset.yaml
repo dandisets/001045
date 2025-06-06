@@ -8,12 +8,24 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 212296777439
+  numberOfFiles: 25
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Quirk, Keelin; Ladron de Guevara, Antonio; Raghunandan, Aditya; Nedergaard,
-  Maiken; Kelley, Douglas H.  (2024) Comparison of Fluid Flow In the Pial Perivascular
-  Spaces of Rats and Mice (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001045/draft
+  Maiken; Kelley, Douglas H.  (2025) Comparison of Fluid Flow In the Pial Perivascular
+  Spaces of Rats and Mice (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001045/draft
 contributor:
 - affiliation: []
   email: yuezhao@rochester.edu
@@ -97,9 +109,8 @@ contributor:
   schemaKey: Organization
 dateCreated: '2024-06-03T16:51:12.498105+00:00'
 description: This data includes several visualizations of five different rat’s pial
-  perivascular spaces. It includes videos of fluid motion, linescans of artery pulsation,
-  and z-stacks of arteries and perivascular spaces. These images were acquired using
-  a two-photon microscope.
+  perivascular spaces. It includes videos of fluid motion and z-stacks of arteries
+  and perivascular spaces. These images were acquired using a two-photon microscope.
 ethicsApproval: []
 id: DANDI:001045/draft
 identifier: DANDI:001045
@@ -113,12 +124,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001045/versions/draft/assets/
 name: Comparison of Fluid Flow In the Pial Perivascular Spaces of Rats and Mice
-protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001045/draft
 version: draft
 wasGeneratedBy: []
