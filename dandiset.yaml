@@ -28,7 +28,7 @@ assetsSummary:
   variableMeasured: []
 citation: Quirk, Keelin; Ladron de Guevara, Antonio; Raghunandan, Aditya; Nedergaard,
   Maiken; Kelley, Douglas H.  (2025) Comparison of Fluid Flow In the Pial Perivascular
-  Spaces of Rats and Mice (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001045/draft
+  Spaces of Rats and Mice (Version 0.250607.0101) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001045/0.250607.0101
 contributor:
 - affiliation: []
   email: yuezhao@rochester.edu
@@ -115,8 +115,9 @@ datePublished: '2025-06-07T01:01:29.671814+00:00'
 description: This data includes several visualizations of five different rat’s pial
   perivascular spaces. It includes videos of fluid motion and z-stacks of arteries
   and perivascular spaces. These images were acquired using a two-photon microscope.
+doi: 10.48324/dandi.001045/0.250607.0101
 ethicsApproval: []
-id: DANDI:001045/draft
+id: DANDI:001045/0.250607.0101
 identifier: DANDI:001045
 keywords:
 - glymphatic
@@ -126,7 +127,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001045/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001045/0.250607.0101/assets.yaml
 name: Comparison of Fluid Flow In the Pial Perivascular Spaces of Rats and Mice
 publishedBy:
   endDate: '2025-06-07T01:01:29.671814+00:00'
@@ -144,6 +145,6 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/001045/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001045/0.250607.0101
+version: 0.250607.0101
 wasGeneratedBy: []
