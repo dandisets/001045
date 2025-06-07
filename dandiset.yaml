@@ -14,13 +14,16 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 412966505275
-  numberOfFiles: 47
+  numberOfBytes: 447436412442
+  numberOfFiles: 50
   numberOfSubjects: 14
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
     name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured: []
 citation: Quirk, Keelin; Ladron de Guevara, Antonio; Raghunandan, Aditya; Nedergaard,
@@ -108,6 +111,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-03T16:51:12.498105+00:00'
+datePublished: '2025-06-07T01:01:29.671814+00:00'
 description: This data includes several visualizations of five different rat’s pial
   perivascular spaces. It includes videos of fluid motion and z-stacks of arteries
   and perivascular spaces. These images were acquired using a two-photon microscope.
@@ -124,6 +128,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001045/versions/draft/assets/
 name: Comparison of Fluid Flow In the Pial Perivascular Spaces of Rats and Mice
+publishedBy:
+  endDate: '2025-06-07T01:01:29.671814+00:00'
+  id: urn:uuid:12e1f2e7-d179-4900-a6f7-727d7f8b3848
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-06-07T01:01:29.671814+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:5b0ab554-1212-4eb1-be41-244d2d6747ce
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
